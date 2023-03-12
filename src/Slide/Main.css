@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: #212121;
+}
+.navbars{
+    
+    width: 100%;
+    height: 70px;
+   
+}
+ul{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+ul .nav{
+    margin-left: 20px;
+    display: flex;
+   
+}
+.navs{
+    margin-top: 15px;
+    margin-right: 40px;
+    display: flex;
+    
+}
+.navs h3:hover{
+    color: red;
+}
+.navs h3{
+    transition: 0.7s;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+/* //////////main////////////// */
+
+.main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.mains{
+  display: flex;
+}
+.ff{
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.ff button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  transition: 0.7s;
+  transform: scale(1);
+}
+
+.tt{
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+}
+button:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.tt button{
+    color: white;
+    font-size: 50px;
+    transition: 0.7s;
+    transform: scale(1);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+}
+.ss img{
+    width: 100%;
+    height: auto;
+}
